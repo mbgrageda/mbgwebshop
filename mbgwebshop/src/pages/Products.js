@@ -11,9 +11,9 @@ function Products() {
   }, []);
 
   const products = [
-    { id: 1, name: "Wireless Mouse", price: 599, img: "/images/mouse.jpg" },
-    { id: 2, name: "Keyboard", price: 1299, img: "/images/keyboard.jpg" },
-    { id: 3, name: "Headset", price: 999, img: "/images/headset.jpg" },
+    { id: 1, name: "Wireless Mouse", price: 599, img: "/mouse.jpg" },
+    { id: 2, name: "Keyboard", price: 1299, img: "/keyboard.jpg" },
+    { id: 3, name: "Headset", price: 999, img: "/headset.jpg" },
   ];
 
   const handleAdd = (p) => {
@@ -29,6 +29,7 @@ function Products() {
 
       <div className="container">
         <Navbar />
+
         <main>
           <h2>All Products</h2>
 

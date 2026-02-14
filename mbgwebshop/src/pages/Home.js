@@ -8,9 +8,9 @@ function Home() {
   }, []);
 
   const featuredProducts = [
-    { id: 1, name: "Wireless Mouse", price: 599, img: "/images/mouse.jpg" },
-    { id: 2, name: "Keyboard", price: 1299, img: "/images/keyboard.jpg" },
-    { id: 3, name: "Headset", price: 999, img: "/images/headset.jpg" },
+    { id: 1, name: "Wireless Mouse", price: 599, img: "/mouse.jpg" },
+    { id: 2, name: "Keyboard", price: 1299, img: "/keyboard.jpg" },
+    { id: 3, name: "Headset", price: 999, img: "/headset.jpg" },
   ];
 
   return (
@@ -22,8 +22,10 @@ function Home() {
 
       <div className="container">
         <Navbar />
+
         <main>
           <h2>Featured Products</h2>
+
           <div className="products-grid">
             {featuredProducts.map((p) => (
               <div key={p.id} className="product">

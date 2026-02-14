@@ -7,10 +7,12 @@ function Home() {
     document.title = "Tindahan Co - Home";
   }, []);
 
+  const base = process.env.PUBLIC_URL;
+
   const featuredProducts = [
-    { id: 1, name: "Wireless Mouse", price: 599, img: "/mouse.jpg" },
-    { id: 2, name: "Keyboard", price: 1299, img: "/keyboard.jpg" },
-    { id: 3, name: "Headset", price: 999, img: "/headset.jpg" },
+    { id: 1, name: "Wireless Mouse", price: 599, img: `${base}/mouse.jpg` },
+    { id: 2, name: "Keyboard", price: 1299, img: `${base}/keyboard.jpg` },
+    { id: 3, name: "Headset", price: 999, img: `${base}/headset.jpg` },
   ];
 
   return (

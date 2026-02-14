@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mbgwebshop/static/css/main.afc2f23b.css",
-    "main.js": "/mbgwebshop/static/js/main.06a184ce.js",
+    "main.js": "/mbgwebshop/static/js/main.cdd49a29.js",
     "index.html": "/mbgwebshop/index.html",
     "main.afc2f23b.css.map": "/mbgwebshop/static/css/main.afc2f23b.css.map",
-    "main.06a184ce.js.map": "/mbgwebshop/static/js/main.06a184ce.js.map"
+    "main.cdd49a29.js.map": "/mbgwebshop/static/js/main.cdd49a29.js.map"
   },
   "entrypoints": [
     "static/css/main.afc2f23b.css",
-    "static/js/main.06a184ce.js"
+    "static/js/main.cdd49a29.js"
   ]
 }
